@@ -1,0 +1,11 @@
+Constant:
+* Constant adalah variable yang jika sudah diberi nilai tidak akan bisa lagi diganti nilainya
+* Cara pembuatan constant mirip dengan variable, kata kunci 'var' diganti dengan 'const'
+* Saat membuat constant kita wajib langsung menginisialisasikan datanya
+* Dan kita tidak wajib memasukkan tipe datanya
+* Dan jika tidak digunakan tidak akan error, tidak seperti variable biasa yang harus digunakan, karena biasanya mungkin constant akan dipakai di berbagai source code
+* Constant tidak seperti variable, constant tidak bisa menggunakan tanda ':='
+
+
+Deklarasi Multiple Constant
+* Sama seperti variable, constant juga bisa membuat multiple constant
