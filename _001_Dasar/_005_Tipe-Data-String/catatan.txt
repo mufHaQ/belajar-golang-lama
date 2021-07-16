@@ -1,0 +1,12 @@
+Tipe Data String:
+* Tipe data String adalah tipe data dari sekumpulan karaketer
+* Jumlah karaketer di dalam String bisa nol sampai tak terhingga
+* Tipe data String di Go-Lang direpresentasikan menggunakan kata kunci 'string'
+* Nilai data String di Go-Lang selalu diawali dan diakhiri dengan tanda (")
+
+
+Function untuk String:
+------Function---------------------Keterangan-----------------------
+| len("string")   | Menghitung Jumlah karakter di String           |
+| "strig"[number] | Mengampil karakter pada posisi yang ditentukan |
+--------------------------------------------------------------------
