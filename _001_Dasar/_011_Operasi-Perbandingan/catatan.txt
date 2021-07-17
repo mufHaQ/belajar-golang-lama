@@ -1,0 +1,11 @@
+Operasi Perbandingan:
+* Adalah operasi yang digunakan untuk membadingkan dua data
+* Menghasilkan data berupa boolean
+-------------Keterangan----------
+| >  | Lebih Dari               |
+| <  | Kurang Dari              |
+| >= | Lebih Dari Sama Dengan   |
+| <= | Kurang Dari Sama Dengan  |
+| == | Sama Dengan              |
+| != | Tida Sama Dengan         |
+---------------------------------
