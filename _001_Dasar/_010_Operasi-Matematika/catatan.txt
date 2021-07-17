@@ -1,0 +1,28 @@
+Operasi Matematika:
+--Operator------Keterangan---
+|     +    | Penjumlahan    |
+|     -    | Pengurangan    |
+|     *    | Perkalian      |
+|     /    | Pembagian      |
+|     %    | Sisa Pembagian |
+-----------------------------
+
+
+Augmented Assingments:
+------------------------
+| a = a + 10 | a += 10 |
+| a = a - 10 | a -= 10 |
+| a = a * 10 | a *= 10 |
+| a = a / 10 | a /= 10 |
+| a = a % 10 | a %= 10 |
+------------------------
+
+
+Operator Unary:
+--Op------Keterangan-----
+| ++ | a = a + 1         |
+| -- | a = a - 1         |
+| +  | Positif           |
+| -  | Negatif           |
+| !  | Boolean Kebalikan |
+--------------------------
