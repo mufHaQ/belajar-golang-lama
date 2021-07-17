@@ -1,0 +1,40 @@
+Tipe Data Slice:
+* Tipe data Slice adalah potongan dari Array
+* Slice mirip dengan Array, yang membedakan adalah ukuran/panjang dari Slice bisa berubah
+* Slice dan Array selalu terkoneksi, dimana Slice adalah data yang mengakses sebagian/seluruh data dari Array (Mirip dynamic tetapi tidak bisa dibilang dynamic)
+
+
+Tipe Data Slice:
+* Tipe data Slice memiliki 3 data, yaitu pointer, length dan capacity
+* Pointer adalah penunjuk data pertama di Array pada Slice
+* Length adalah panjang dari Slice
+* Capacity adalah kapasitas dari Slice, dimana length tidak boleh lebih dari capacity (ini mengacu pada panjang Array)
+
+
+Membuat Slice Dari Array:
+----Membuat Slice-------------------------Keterangan--------------------------
+| array[low:high]   | Slice dimulai dari index ke-low sampai index high-1    |
+| array[low:]       | Slice dimulai dari index ke-low sampai index terakhir  |
+| array[:high]      | Slice dimulai dari index pertama sampai index high-1   |
+| array[:]          | Slice dimulai dari index pertama sampai index terakhir |
+------------------------------------------------------------------------------
+
+
+Function Pada Slice:
+----------------Function----------------------------------------------Keterangan---------------------------------
+| len(slice)                            | Panjang Slice                                                         |
+| cap(slice)                            | Kapasitas Slice                                                       |
+| append(slice)                         | Membuat Slice baru dengan menambahkan data ke posisi terakhir slice,  |
+|                                       | jika kapasitas sudah penuh, maka akan membuat Array baru              |
+| make([]TypeData, length, capacity)    | Membuat Slice baru                                                    |
+| copy(destination, source)             | Menyalin Slice dari source ke destination                             |
+-----------------------------------------------------------------------------------------------------------------
+
+Keterangan:
+* Capacity adalah jumlah dari index awal Slice sampai index akhir Array, jika panjang array adalah 11 dan index Slice dimulai dari angka 5 berakhir dir 8, maka capacitynya dari angka 5-11, dan lengthnya dari 5-7 (high-1)
+* Jika kita merubah data di Slice, maka data Array akan ikut diubah, dan sebaliknya
+* Jika kapasitas penuh dan Array baru dibuat, maka jika ada perubaha data di Slice tidak akan mempengaruhi Array lama
+
+
+Hati-Hati Saat Membuat Array:
+* Saat membuat Array, kita harus berhati-hati, jika salah, yang kita buat bukanlan Array, melainkan Slice
