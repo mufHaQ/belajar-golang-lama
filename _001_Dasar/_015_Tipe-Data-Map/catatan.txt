@@ -1,0 +1,15 @@
+Tipe Data Map:
+* Pada Array atau Slice, untuk mengakses data, kita menggunakan index Number yang dimulai dari 0
+* Map adalah tipe data yang berisikan kumpulan data yang sama, namun kita bisa menentukan jenis tipe data pada indexnya
+* Sederananya, Map adalah tipe data kumpulan key-value (kata kunci-nilai), dimana kata kuncinya bersifat unik, tidak boleh sama
+* Berbeda dengan Array dan Slice, jumlah data yang kita masukkan ke dalam Map tidak terbatas, asalkan keynya berbeda pada setiap value, jika kita menggunakan key yang sama, maka data yang sebelumnya akan diganti dengan data yang baru
+
+
+Function Pada Map:
+------------Function-----------------------------Keterangan------------------
+| len(map)                      | Menghitung jumlad data pada Map           |
+| map[key]                      | Mengambil data di Map dengan index ke-key |
+| map[key] = new_value          | Mengubah data di Map dengan index ke-key  |
+| make(map[TypeKey]TypeValue)   | Membuat Map baru                          |
+| delete(map, key)              | Menghapus data di Map dengan index ke-key |
+-----------------------------------------------------------------------------
