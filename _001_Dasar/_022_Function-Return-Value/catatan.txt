@@ -1,0 +1,6 @@
+Function Return Value:
+* Function bisa mengembalikan data
+* Untuk memberitahu bahwa function mengembalikan data, kita harus menuliskan tipe data kembalian dari function tersebut
+* Jika function tersebut kita deklarasikan dengan tipe data pengembalian, maka wajib di dalam functionnya kita harus mengembalikan data
+* Untuk mengembalikan data dari function, kita bisa menggunakan kata kunci return, diikuti dengan datanya
+* Semua kode yang dituliskan setelah return tidak akan dieksekusi, karena ketika return dijalankan, maka function akan langsung mengembalikan data dan berhenti
