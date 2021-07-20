@@ -1,0 +1,5 @@
+Function Parameter:
+* Saat membuat function, kadang-kadang kita membutuhkan data dari luar (parameter)
+* Kita bisa menambahkan parameter di function, dan bisa lebih dari satu
+* Parameter tidaklah wajib, jadi kita bisa membuat funciton tanpa parameter seperti function pada folde 020
+* Namun jika kita menambahkan parameter di function, maka ketika kita memanggil function tersebut, kita wajib memasukkan data kedalam parameternya
