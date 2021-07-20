@@ -1,0 +1,15 @@
+For Loops:
+* Di bahasa pemrogramman, biasanya ada fitur perulangan 
+* Tidak seperti bahasa lain yang biasanya ada 3 jenis loop (for, while, do.. while), di Go-Lang kita hanya memiliki 1 loop, yaitu for loop
+
+
+For Dengan Statement:
+* Dalam for, kita bisa menambahkan statement, dimana terdapat 2 statement yang bisa ditambahkan di for
+* Init Statement, yaitu statement sebelum for dieksekusi
+* Post Statement, yaitu statement yang akan dieksekusi diakhir tiap perulangan
+
+
+For Range:
+* For bisa digunakan untuk melakukan iterasi terhadap sebuah data collection
+* Data collection contohnya, Slice, Array dan Map
+* Range akan akan mereturn 2 nilai, jika Array/Slice maka akan mereturn index-value, dan jika Map akan mereturn key-value
