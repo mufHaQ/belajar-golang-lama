@@ -1,0 +1,3 @@
+Struct Method:
+* Struct seperti tipe data lainnya, bisa digunakan sebagai parameter untuk function
+* Kita bisa menambahkan method ke struct, seakan-akan sebuah struct memiliki function

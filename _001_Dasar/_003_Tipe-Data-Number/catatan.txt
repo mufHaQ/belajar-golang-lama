@@ -1,5 +1,5 @@
 Tipe Data Number:
-* Di Go-Lang ada dua jenis tipe data Number, yaitu:
+* Di Golang ada dua jenis tipe data Number, yaitu:
     1. Integer
     2. Floating Point
 

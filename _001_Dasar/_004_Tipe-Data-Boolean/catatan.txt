@@ -1,6 +1,6 @@
 Tipe Data Boolean:
 * Tipe Data Boolean adalah tipe data yang hanya memiliki dua nilai, yaitu benar(true) dan salah(false)
-* Di Go-Lang, tipe data boolean direpresentasikan menggunakan kata kunci bool
+* Di Golang, tipe data boolean direpresentasikan menggunakan kata kunci bool
 
 
 Boolean:

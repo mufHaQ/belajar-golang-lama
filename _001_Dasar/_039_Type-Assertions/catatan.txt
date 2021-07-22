@@ -1,0 +1,9 @@
+Type Assertions:
+* Merupakan kemampuan merubah tipe data menjadi tipe data yang diinginkan
+* Fitur ini sering digunakan ketika kita bertemu data interface kosong
+
+
+Type Assertions Menggunakan Switch:
+* Saat salah menggunakan type assertions, maka akan mengakibatkan panic
+* Jika panic dan tidak ter-recover, maka program kita akan langsung berhenti
+* Agar lebih aman, sebaiknya kita menggunakan switch expression untuk melakukan type assertions

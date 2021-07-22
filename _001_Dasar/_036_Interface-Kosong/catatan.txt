@@ -1,0 +1,14 @@
+Interface Kosong:
+* Golang bukanlah bahasa pemrograman yang berorientasi object
+* Biasanya dalam bahasa PBO, ada satu data parent di puncak yang bisa dianggap sebagai semua implementasi data yang ada di bahasa pemrograman tersebut
+* Contoh di Java ada java.lang.Object
+* Untuk menangani kasus seperti ini, di Golang kita bisa menggunakan interface kosong
+* Interface kosong adalah interface yang tidak memiliki deklarasi method satupun, hal ini membuat secara otomatis semua tipe data akan menjadi implementasinya
+
+
+Penggunaan Interface Kosong di Golang:
+* Ada banyak contoh penggunaan interface kosong di Golang, seperti:
+    1. fmt.Println(a ...interface{})
+    2. panic(v interface{})
+    3. recover() interface{}
+    4. dll

@@ -1,6 +1,6 @@
 For Loops:
 * Di bahasa pemrogramman, biasanya ada fitur perulangan 
-* Tidak seperti bahasa lain yang biasanya ada 3 jenis loop (for, while, do.. while), di Go-Lang kita hanya memiliki 1 loop, yaitu for loop
+* Tidak seperti bahasa lain yang biasanya ada 3 jenis loop (for, while, do.. while), di Golang kita hanya memiliki 1 loop, yaitu for loop
 
 
 For Dengan Statement:

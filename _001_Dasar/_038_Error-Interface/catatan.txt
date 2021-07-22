@@ -1,0 +1,7 @@
+Error Interface:
+* Golang memiliki sebuah interface yang digunakan sebagai kontrak untuk membuat error, nama interface nya adalah error
+
+
+Membuat Error:
+* Untuk membuat error, kita tidak perlu manual.
+* Di Golang sudah menyediakan library untuk membuat helper dengan mudah, yang terdapat di package errors

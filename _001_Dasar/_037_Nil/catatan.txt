@@ -1,0 +1,5 @@
+Nil:
+* Biasanya di dalam bahasa pemrogramman lain, object yang belum diinisialisasikan secara otomatis nilainya adalah null atau nil jika di Golang
+* Berbeda dengan Golang, saat kita membuat variable dengan tipe data tertentu, maka secara otomatis akan dibuat default valuenya
+* Namun di Golang ada data nil, yaitu data kosong
+* Nil sendiri hanya bisa digunakan di beberapa tipe data, seperti interface, function, map, slice, pointer dan channel

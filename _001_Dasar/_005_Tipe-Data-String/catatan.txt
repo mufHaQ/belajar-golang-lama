@@ -1,8 +1,8 @@
 Tipe Data String:
 * Tipe data String adalah tipe data dari sekumpulan karaketer
 * Jumlah karaketer di dalam String bisa nol sampai tak terhingga
-* Tipe data String di Go-Lang direpresentasikan menggunakan kata kunci 'string'
-* Nilai data String di Go-Lang selalu diawali dan diakhiri dengan tanda (")
+* Tipe data String di Golang direpresentasikan menggunakan kata kunci 'string'
+* Nilai data String di Golang selalu diawali dan diakhiri dengan tanda (")
 
 
 Function untuk String:

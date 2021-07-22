@@ -1,8 +1,8 @@
 Switch Expression:
-* Selain If-Else-Expression, kita bisa menggunakan Switch Expression untuk melakukan percaabangan di Go-Lang
+* Selain If-Else-Expression, kita bisa menggunakan Switch Expression untuk melakukan percaabangan di Golang
 * Switch Expression lebih sederhana dibandingkan If-Else-Expression
 * Biasanya Switch Expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variable
-* Di Go-Lang sepertinya tidak membutuhkan kata kunci break setelah membuat case, tidak seperti bahasa lain
+* Di Golang sepertinya tidak membutuhkan kata kunci break setelah membuat case, tidak seperti bahasa lain
 
 
 Switch Expression dengan Short Statement:

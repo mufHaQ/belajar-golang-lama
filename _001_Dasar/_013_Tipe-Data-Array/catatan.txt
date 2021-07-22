@@ -2,7 +2,7 @@ Tipe Data Array:
 * Adalah tipe data yang berisikan kumpulan data dengan tipe data yang sama (tidak seperti JavaScript yang menggunakan dynamic typing, bisa menggunakan tipe data yang berbeda di dalam sebuah Array)
 * Saat membuat Array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut
 * Daya tampung Array tidak bisa bertambah setelah Array dibuat (ini juga tidak seperti JavaScript yang bisa ditambah kapan saja sesuai keinginan kita)
-* Data di dalam Array dipasangkan dengan nomor index, nomor index di Go-Lang dimulai dari angka 0
+* Data di dalam Array dipasangkan dengan nomor index, nomor index di Golang dimulai dari angka 0
 
 
 Index di Array:
@@ -14,7 +14,7 @@ Index di Array:
 
 
 Membuat Array Langsung Dengan Data:
-* Di Go-Lang kita bisa langsung mengisi data di dalam Array yang telah kita buat
+* Di Golang kita bisa langsung mengisi data di dalam Array yang telah kita buat
 
 
 Function Pada Array:

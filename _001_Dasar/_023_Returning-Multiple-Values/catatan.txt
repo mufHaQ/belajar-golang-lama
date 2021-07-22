@@ -1,4 +1,4 @@
 Returning Multiple Values:
-* Di Go-Lang, function tidak hanya bisa me-return satu value, tapi juga bisa sekaligus beberapa value
+* Di Golang, function tidak hanya bisa me-return satu value, tapi juga bisa sekaligus beberapa value
 * Untuk memberitahu jika function mengembalikan multiple value, kita haru menulis semua tipe data return valuenya di function
 * Jika kita ingin meng-ignore salah satu atau beberapa return value, kita bisa menggunakan tanda '_' seperti pada for loop, tetapi minimal harus ada satu data yang digunakan

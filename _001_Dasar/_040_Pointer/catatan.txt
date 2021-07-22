@@ -1,0 +1,3 @@
+Pass by Value:
+* Di Golang, secara default semua variable itu di passing by value, bukan by reference
+* Artinya, jika kita mengirim sebuah variable ke dalam function, method atau variable lain, sebenarnya yang dikirim adalah duplikasi valuenya
