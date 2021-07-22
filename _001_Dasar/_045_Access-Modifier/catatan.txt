@@ -1,0 +1,4 @@
+Access Modifier:
+* Di bahasa pemrogramman lain, biasanya ada kata kunci yang bisa digunakan untuk menentukan access modifier terhadap suatu function atau variable
+* Di Golang, untuk menentukan access modifier, cukup dengan nama function atau variabel
+* Jika nama diawali dengan huruf besar, maka artinya public, jika diawali dengan huruf kecil, maka artinya private

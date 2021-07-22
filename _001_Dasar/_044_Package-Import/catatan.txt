@@ -1,0 +1,5 @@
+Package:
+* Adalah tempat yang bisa digunakan untuk mengorganisir kode program yang kita buat di Golang
+* Dengan menggunakan package, kita bisa merapikan kode program yang kita buat
+* Package sendiri sebenarnya hanya direktori folder di sistem operasi kita
+* Jika ada dua function bernama sama dalam satu package, maka akan error
