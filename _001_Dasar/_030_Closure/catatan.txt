@@ -1,0 +1,2 @@
+Closure:
+* Adalah kemampuan sebuah function berinteraksi dengan data-data disekitarnya dalam scope yang sama

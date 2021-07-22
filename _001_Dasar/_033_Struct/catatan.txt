@@ -1,0 +1,12 @@
+Struct:
+* Adalah sebuah template/prototype data yang digunakan untuk menggabungkan nol atau lebih tipe data lainnya dalam satu kesatuan
+* Struct biasanya merepresentasikan data dalam program yang kita buat
+* Data di struct disimpan dalam field
+* Sederhananya struct adalah kumpulan dari field
+* Dalam satu filed, kita bisa menambahkan data lebih dari satu, contoh: Name, Address string
+* Pemanaan struct biasanya diawali dengan huruf kapital karena karena biasanya struct akan diekspor, kapital bisa diartikan sebagai public
+
+
+Membuat Data Struct:
+* Struct tidak bisa langsung digunakan
+* Namun kita bisa membuat data/object dari struct yang telah kita buat

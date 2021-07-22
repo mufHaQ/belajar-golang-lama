@@ -1,0 +1,4 @@
+Komentar:
+* Komentar terbaik pada kode program adalah kode itu sendiri, artinya usahakan untuk membuat kode yang bisa dibaca oleh orang-orang
+* Jadi kita harus membuat kode semudah mungkin untuk dibaca
+* Namun kadang ada juga kita butuh menambah komentar di kode kita

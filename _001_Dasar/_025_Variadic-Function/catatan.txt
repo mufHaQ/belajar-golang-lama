@@ -6,9 +6,11 @@ Variadic Fucntion:
     2. Jika parameter menggunakan varargs, kita bisa langsung mengirim datanya, jika lebih dari satu, cukup gunakan tanda koma ','
 * Cara membuatnya dengan menambahkan '...' pada bagian tipe data parameter, contoh: func sumAll(numbers ...int)
 * Variadic Fucntion ini mirip dengan Rest Parameter yang ada di JavaScript
+* Kita tidak bisa menggunakan Array sebagai parameter pada variadic function
 
 
 Slice Parameter:
-* Kadang ada kasus dimana kita menggunakan Variadic Fucntion, namun memiliki variable berupa Slice
+* Kadang ada kasus dimana kita menggunakan Variadic Function, namun memiliki variable berupa Slice
 * Kita bisa menjadikan Slice sebagai varargs parameter
 * Dengan menambahkan 3 titik (...) pada bagian akhir variable, contoh: numbers...
+* Kalau ini mirip dengan spread syntax pada JavaScript

@@ -1,0 +1,4 @@
+Anonymous Function:
+* Sebelumnya setiap membuat function, kita akan selalu memberikan sebuah nama pada function tersebut
+* Namun kadang kita ada kalanya lebih mudah membuat function secara langsung di variable atau parameter tanpa harus membuat function terlabih dahulu
+* Ini dinamakan Anonymous Function, atau function tanpa nama
