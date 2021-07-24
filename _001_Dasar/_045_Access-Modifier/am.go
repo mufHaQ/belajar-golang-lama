@@ -1,13 +1,32 @@
 package main
 
 import (
-	"access-modifier/helper"
+	"errors"
 	"fmt"
+
+	"access-modifier/handler"
+
+	"access-modifier/helper"
 )
 
 func main() {
 	fmt.Println()
 
-	fmt.Println(helper.SayHello("Ulhaq"))
+	golang := helper.Application // Bisa diakses
+
+	fmt.Println(helper.SayHello(golang))
 	// fmt.Println(helper.sayGoodBye()) // Akan error
+
+	testPanic()
+	testError()
+}
+
+func testPanic() {
+	defer handler.PanicHandler()
+
+	panic("test Panic")
+}
+
+func testError() {
+	handler.ErrorHandler(errors.New("test Error"))
 }

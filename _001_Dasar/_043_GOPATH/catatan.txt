@@ -4,3 +4,4 @@ GOPATH:
 * GOPATH wajib dibuat ketika kita mulai membuat aplikasi lebih dari satu file atau butuh menggunakan library dari luar
 * Karena sekarang memakai golang versi go1.16.x dan Go 1.11 keatas sudah mendukung Go Modules, jadi tidak perlu setting GOPATH (https://blog.golang.org/using-go-modules)
 * kita bisa menggunakan go mod init nama_project
+* Jika kita tidak ingin menggunakan go mod init, kita perlu mematikan go111module dengan menggunakan command seperti ini: GO111MODULE=off go run nama_file.go

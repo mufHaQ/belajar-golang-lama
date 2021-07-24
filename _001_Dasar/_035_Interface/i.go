@@ -20,6 +20,6 @@ type Person struct {
 	Name string
 }
 
-func (p Person) GetName() string { // Otomatik mengimplementasikan Interface Makhluk
+func (p Person) GetName() string { // Otomatis mengimplementasikan Interface Makhluk
 	return p.Name
 }
