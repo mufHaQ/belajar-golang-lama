@@ -1,0 +1,15 @@
+Package strconv:
+* Sebelumnya kita sudah belajar cara konversi tipe data, misal dari int8 ke int16
+* Bagaimana jika kita butuh menkonversi dengan tipe data yang berbeda? Misalhnya dari int ke string, atau sebaliknya
+* Hal tersebut bisa kita lakukan dengan bantuan package strconv (string conversion)
+* https://golang.org/pkg/strconv
+
+Beberapa Function di Package strconv:
+-------------Function---------------------------Keterangan-----------
+| strconv.ParseBool(string)         | Mengubah string ke bool       |
+| strconv.ParseFloat(string)        | Mengubah string ke float      |
+| strconv.ParseInt(string)          | Mengubah string ke int64      |
+| strconv.FormatBool(bool)          | Mengubah bool ke string       |
+| strconv.FormatFloat(float, ...)   | Mengubah float64 ke string    |
+| strconv.FormatInt(int, ...)       | Mengubah int64 ke string      |
+---------------------------------------------------------------------

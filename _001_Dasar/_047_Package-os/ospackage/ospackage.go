@@ -19,7 +19,3 @@ func GetArguments() []interface{} {
 
 	return newArgs
 }
-
-func GetHostname() (string, error) {
-	return os.Hostname()
-}
