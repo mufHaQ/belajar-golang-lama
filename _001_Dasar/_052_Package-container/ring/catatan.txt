@@ -1,0 +1,5 @@
+Package container/ring:
+* Adalah implementasi struktur data circular list
+* Circular list adalah struktur data ring, dimana di akhir element akan kembali ke element awal (HEAD)
+* Jadi, ring adalah data yang berbentuk lingkaran
+* https://golang.org/pkg/container/ring

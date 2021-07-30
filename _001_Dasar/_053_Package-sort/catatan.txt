@@ -1,0 +1,4 @@
+Package sort:
+* Adalah package yang berisikan utilitas untuk proses pengurutan
+* Agar data kita bisa diurutkan, kita harus mengimplementasikan kontrak di interface sort.Interface
+* https://golang.org/pkg/sort

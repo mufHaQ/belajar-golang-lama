@@ -1,0 +1,3 @@
+Package container/list:
+* Adalah implementasi struktur data double linked list di Golang
+* https://golang.org/pkg/container/list

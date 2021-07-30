@@ -6,7 +6,7 @@ import (
 )
 
 type ListStruct struct {
-	data *list.List
+	List list.List
 }
 
 func (ls *ListStruct) CreateList(values ...interface{}) {
@@ -16,15 +16,25 @@ func (ls *ListStruct) CreateList(values ...interface{}) {
 		data.PushBack(value)
 	}
 
-	ls.data = data
+	ls.List = *data
 }
 
-func (ls *ListStruct) PrintList() {
-	for lst := ls.data.Front(); lst != nil; lst = lst.Next() {
-		fmt.Println(lst.Value)
+func (ls *ListStruct) GetDataList() list.List {
+	return ls.List
+}
+
+func (ls *ListStruct) PrintDataList() {
+	for dataList := ls.List.Front(); dataList != nil; dataList = dataList.Next() {
+		fmt.Println(dataList.Value)
 	}
 }
 
-func (ls *ListStruct) GetList() *list.List {
-	return ls.data
+func (ls *ListStruct) ListToSlice() []interface{} {
+	data := make([]interface{}, 0)
+
+	for dataList := ls.List.Front(); dataList != nil; dataList = dataList.Next() {
+		data = append(data, dataList.Value)
+	}
+
+	return data
 }
