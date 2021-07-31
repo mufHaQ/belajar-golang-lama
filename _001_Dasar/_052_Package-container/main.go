@@ -38,5 +38,5 @@ func ContainerList() {
 }
 
 func ContainerRing() {
-	ring.TestRing(5, "ring ke-")
+	ring.TestRing(10, "ring ke-")
 }

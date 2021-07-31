@@ -1,9 +1,4 @@
-package sort
-
-import (
-	"fmt"
-	"sort"
-)
+package pkg_sort
 
 type User struct {
 	Name string
@@ -22,16 +17,4 @@ func (us UserSlice) Less(i, j int) bool {
 
 func (us UserSlice) Swap(i, j int) {
 	us[i], us[j] = us[j], us[i]
-}
-
-func TestSort() {
-	var users UserSlice = []User{
-		{"Budi", 17},
-		{"Ulhaq", 16},
-		{"Joko", 19},
-	}
-
-	sort.Sort(UserSlice(users))
-
-	fmt.Println(users)
 }

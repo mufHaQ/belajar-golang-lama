@@ -1,0 +1,11 @@
+Package time:
+* Adalah package yang berisikan fungsionalitas untuk management waktu di Golang
+* https://golang.org/pkg/time
+
+
+Beberapa function:
+-----------Function---------------------------Keterangan-----------------
+| time.Now()                    | Untuk mendapatkan waktu saat ini      |
+| time.Date(...)                | Untuk membuat waktu                   |
+| time.Parse(layout, string)    | Untuk memparsing waktu dari string    |
+-------------------------------------------------------------------------
