@@ -1,0 +1,5 @@
+Package reflect:
+* Dalam bahasa pemrogramman biasanya ada fitur Reflection, dimana kita bisa melihat struktur kode kita pada saat aplikasi sedang berjalan
+* Hal ini bisa kita lakukan di Golang, dengan menggunakan package reflect
+* Reflection sangat berguna ketika kita ingin membuat library yang general sehingga udah digunakan
+* https://golang.org/pkg/reflect
